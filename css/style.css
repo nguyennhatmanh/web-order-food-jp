@@ -64,7 +64,7 @@ a:hover{
     background-color: #ff4757;
 }
 h2{
-    color: #2f3542;
+    color: #ff6b81;
     font-size: 2rem;
     margin-bottom: 2%;
 }
@@ -200,6 +200,7 @@ fieldset{
 .order{
     width: 50%;
     margin: 0 auto;
+    color: #ff6b81;
 }
 .input-responsive{
     width: 96%;
@@ -214,6 +215,63 @@ fieldset{
     font-weight: bold;
 }
 
+/* CSS for Service */
+.price {
+    padding: 64px 0px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.price .title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.price .preview {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.6;
+    margin-top: 15px;
+}
+
+.list-price {
+    float: left;
+    width: 33%;
+    padding:0 8px;
+    margin-bottom: 16px;
+    margin-top: 50px;
+}
+
+.ul-price {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    border:1px solid #ccc!important
+}
+.ul-price li{
+    padding:8px 16px;
+    border:1px solid #ddd
+}
+
+.title-price-1 {
+    color:#fff !important;
+    background-color:#000000 !important
+}
+
+.signup-btn {
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    background-color:#009688;
+}
+
+.signup-btn:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
 
 
 /* CSS for Mobile Size or Smaller Screen */

@@ -8,6 +8,9 @@ include('config/constants.php');
     <meta charset="UTF-8">
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Restaurant Website</title>
 
     <!-- Link our CSS file -->
@@ -36,7 +39,7 @@ include('config/constants.php');
                         <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="<?php echo SITEURL; ?>service.php">Service</a>
                     </li>
                 </ul>
             </div>
